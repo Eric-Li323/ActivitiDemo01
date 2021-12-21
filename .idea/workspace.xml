@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a3fbbd9-9d2f-47f9-9910-e81bc3e12d4a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="new-flowable-diagram.bpmn20" />
+        <option value="new-activiti-diagram.bpmn20" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\maven-repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../maven/apache-maven-3.8.2" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.8.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="22Wu039PQMCZJxVG71wjtxxHbXY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/bpmn" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Program Files\JetBrains\IDEA-Projects\ActivitiDemo01\src\main\resources\bpmn" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ActivitiDemo.testDeployment">
+    <configuration name="ActivitiDemo.testDeployment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ActivitiDemo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyh.activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyh.activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.lyh.activiti.ActivitiDemo" />
+      <option name="METHOD_NAME" value="testDeployment" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivitiDemo.testFindPersonalTaskList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ActivitiDemo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyh.activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyh.activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.lyh.activiti.ActivitiDemo" />
+      <option name="METHOD_NAME" value="testFindPersonalTaskList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivitiDemo.testStartProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ActivitiDemo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyh.activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyh.activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.lyh.activiti.ActivitiDemo" />
+      <option name="METHOD_NAME" value="testStartProcess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test01.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ActivitiDemo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyh.activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyh.activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.lyh.activiti.Test01" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ActivitiDemo.testDeployment" />
+        <item itemvalue="JUnit.Test01.test01" />
+        <item itemvalue="JUnit.ActivitiDemo.testFindPersonalTaskList" />
+        <item itemvalue="JUnit.ActivitiDemo.testStartProcess" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a3fbbd9-9d2f-47f9-9910-e81bc3e12d4a" name="Default Changelist" comment="" />
+      <created>1639965437772</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639965437772</updated>
+      <workItem from="1639965441596" duration="7612000" />
+      <workItem from="1639983403704" duration="4000000" />
+      <workItem from="1640047163169" duration="12557000" />
+      <workItem from="1640070007205" duration="1022000" />
+      <workItem from="1640071274292" duration="965000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="121" y="0" key="#Project_Structure" timestamp="1639978398698">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1639978398698" />
+    <state x="385" y="141" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1640049524711">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="385" y="141" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640049524711" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1640051739642">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640051739642" />
+    <state width="1237" height="468" key="GridCell.Tab.0.bottom" timestamp="1640072050609">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1226" height="194" key="GridCell.Tab.0.bottom/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1639990957770" />
+    <state width="1237" height="468" key="GridCell.Tab.0.bottom/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640072050609" />
+    <state width="1237" height="468" key="GridCell.Tab.0.center" timestamp="1640072050609">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1226" height="194" key="GridCell.Tab.0.center/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1639990957770" />
+    <state width="1237" height="468" key="GridCell.Tab.0.center/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640072050609" />
+    <state width="1237" height="468" key="GridCell.Tab.0.left" timestamp="1640072050608">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1226" height="194" key="GridCell.Tab.0.left/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1639990957770" />
+    <state width="1237" height="468" key="GridCell.Tab.0.left/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640072050608" />
+    <state width="1237" height="468" key="GridCell.Tab.0.right" timestamp="1640072050609">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1226" height="194" key="GridCell.Tab.0.right/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1639990957770" />
+    <state width="1237" height="468" key="GridCell.Tab.0.right/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640072050609" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1640068421686">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640068421686" />
+  </component>
+</project>
