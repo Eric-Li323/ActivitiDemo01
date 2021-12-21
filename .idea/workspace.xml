@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a3fbbd9-9d2f-47f9-9910-e81bc3e12d4a" name="Default Changelist" comment="" />
+    <list default="true" id="2a3fbbd9-9d2f-47f9-9910-e81bc3e12d4a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/logactactiviti.log" beforeDir="false" afterPath="$PROJECT_DIR$/logactactiviti.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lyh/activiti/ActivitiDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lyh/activiti/ActivitiDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lyh/activiti/ActivitiDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lyh/activiti/ActivitiDemo.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +40,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -26,16 +53,20 @@
     </option>
   </component>
   <component name="ProjectId" id="22Wu039PQMCZJxVG71wjtxxHbXY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="MyBatisLogPluginindexNum" value="7" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/bpmn" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -46,7 +77,23 @@
       <recent name="D:\Program Files\JetBrains\IDEA-Projects\ActivitiDemo01\src\main\resources\bpmn" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ActivitiDemo.testDeployment">
+  <component name="RunManager" selected="JUnit.ActivitiDemo.testFindPersonalTaskList">
+    <configuration name="ActivitiDemo.completTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ActivitiDemo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyh.activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyh.activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.lyh.activiti.ActivitiDemo" />
+      <option name="METHOD_NAME" value="completTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ActivitiDemo.testDeployment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ActivitiDemo01" />
       <extension name="coverage">
@@ -113,10 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ActivitiDemo.testFindPersonalTaskList" />
+        <item itemvalue="JUnit.ActivitiDemo.completTask" />
+        <item itemvalue="JUnit.ActivitiDemo.testStartProcess" />
         <item itemvalue="JUnit.ActivitiDemo.testDeployment" />
         <item itemvalue="JUnit.Test01.test01" />
-        <item itemvalue="JUnit.ActivitiDemo.testFindPersonalTaskList" />
-        <item itemvalue="JUnit.ActivitiDemo.testStartProcess" />
       </list>
     </recent_temporary>
   </component>
@@ -134,12 +182,23 @@
       <workItem from="1639983403704" duration="4000000" />
       <workItem from="1640047163169" duration="12557000" />
       <workItem from="1640070007205" duration="1022000" />
-      <workItem from="1640071274292" duration="965000" />
+      <workItem from="1640071274292" duration="4293000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="121" y="0" key="#Project_Structure" timestamp="1639978398698">
@@ -154,26 +213,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640051739642" />
-    <state width="1237" height="468" key="GridCell.Tab.0.bottom" timestamp="1640072050609">
+    <state width="1237" height="47" key="GridCell.Tab.0.bottom" timestamp="1640075121660">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1226" height="194" key="GridCell.Tab.0.bottom/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1639990957770" />
-    <state width="1237" height="468" key="GridCell.Tab.0.bottom/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640072050609" />
-    <state width="1237" height="468" key="GridCell.Tab.0.center" timestamp="1640072050609">
+    <state width="1237" height="47" key="GridCell.Tab.0.bottom/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640075121660" />
+    <state width="1237" height="47" key="GridCell.Tab.0.center" timestamp="1640075121660">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1226" height="194" key="GridCell.Tab.0.center/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1639990957770" />
-    <state width="1237" height="468" key="GridCell.Tab.0.center/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640072050609" />
-    <state width="1237" height="468" key="GridCell.Tab.0.left" timestamp="1640072050608">
+    <state width="1237" height="47" key="GridCell.Tab.0.center/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640075121660" />
+    <state width="1237" height="47" key="GridCell.Tab.0.left" timestamp="1640075121660">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1226" height="194" key="GridCell.Tab.0.left/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1639990957770" />
-    <state width="1237" height="468" key="GridCell.Tab.0.left/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640072050608" />
-    <state width="1237" height="468" key="GridCell.Tab.0.right" timestamp="1640072050609">
+    <state width="1237" height="47" key="GridCell.Tab.0.left/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640075121660" />
+    <state width="1237" height="47" key="GridCell.Tab.0.right" timestamp="1640075121660">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1226" height="194" key="GridCell.Tab.0.right/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1639990957770" />
-    <state width="1237" height="468" key="GridCell.Tab.0.right/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640072050609" />
+    <state width="1237" height="47" key="GridCell.Tab.0.right/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640075121660" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1640068421686">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

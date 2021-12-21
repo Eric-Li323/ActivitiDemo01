@@ -1,0 +1,6 @@
+2021-12-21 16:25:22  [ main:0 ] - [ INFO ]  Initializing process engine using configuration 'file:/D:/Program%20Files/JetBrains/IDEA-Projects/ActivitiDemo01/target/classes/activiti.cfg.xml'
+2021-12-21 16:25:22  [ main:103 ] - [ INFO ]  initializing process engine for resource file:/D:/Program%20Files/JetBrains/IDEA-Projects/ActivitiDemo01/target/classes/activiti.cfg.xml
+2021-12-21 16:25:22  [ main:219 ] - [ INFO ]  Loading XML bean definitions from InputStream resource [resource loaded through InputStream]
+2021-12-21 16:25:24  [ main:2871 ] - [ INFO ]  Activiti 5 compatibility handler implementation not found or error during instantiation : org.activiti.compatibility.DefaultActiviti5CompatibilityHandler. Activiti 5 backwards compatibility disabled.
+2021-12-21 16:25:25  [ main:2992 ] - [ INFO ]  ProcessEngine default created
+2021-12-21 16:25:25  [ main:3004 ] - [ INFO ]  initialised process engine default
