@@ -2,6 +2,8 @@ package com.lyh.activiti;
 
 import org.activiti.engine.*;
 import org.activiti.engine.repository.Deployment;
+import org.activiti.engine.repository.ProcessDefinition;
+import org.activiti.engine.repository.ProcessDefinitionQuery;
 import org.activiti.engine.runtime.ProcessInstance;
 import org.activiti.engine.task.Task;
 import org.junit.Test;
@@ -145,6 +147,37 @@ public class ActivitiDemo {
                 .deploy();
         System.out.println("流程部署id= "+deploy.getId());
         System.out.println("流程部署的名称= "+deploy.getName());
+    }
+
+    /**
+     * 查询流程定义
+     */
+    @Test
+    public void queryPocessDefintion(){
+        //获取引擎
+        ProcessEngine processEngine = ProcessEngines.getDefaultProcessEngine();
+        //获取 RepositoryService
+        RepositoryService repositoryService = processEngine.getRepositoryService();
+        //获取当前所有的流程定义
+        ProcessDefinitionQuery definitionQuery = repositoryService.createProcessDefinitionQuery();
+        //查询当前所有的流程定义,返回流程定义信息的集合
+        //processDefinitionKey(流程定义Key)
+        //orderByProcessDefinitionVersion 进行排序
+        //desc 倒叙
+        //list 查询出所有的内容
+        List<ProcessDefinition> definitionList = definitionQuery.processDefinitionKey("myEvection")
+                .orderByProcessDefinitionVersion()
+                .desc()
+                .list();
+        //输出信息
+        for (ProcessDefinition processDefinition : definitionList) {
+            System.out.println("流程定义ID: "+processDefinition.getId());
+            System.out.println("流程定义名称: "+processDefinition.getName());
+            System.out.println("流程定义Key: "+processDefinition.getKey());
+            System.out.println("流程定义版本: "+processDefinition.getVersion());
+        }
+
+
     }
 
 
