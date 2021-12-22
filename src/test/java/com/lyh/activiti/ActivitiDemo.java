@@ -6,7 +6,9 @@ import org.activiti.engine.runtime.ProcessInstance;
 import org.activiti.engine.task.Task;
 import org.junit.Test;
 
+import java.io.InputStream;
 import java.util.List;
+import java.util.zip.ZipInputStream;
 
 /**
  * @author lyh
@@ -119,6 +121,30 @@ public class ActivitiDemo {
         System.out.println("任务名称= "+task.getName());
         //   完成jerry的任务   完成jack的任务   完成rose的任务
         taskService.complete(task.getId());
+    }
+
+    /**
+     * 使用zip包进行批量的部署
+     */
+    @Test
+    public void deployProcessByZip(){
+        //获取流程引擎
+        ProcessEngine processEngine = ProcessEngines.getDefaultProcessEngine();
+        //获取RepositoryService
+        RepositoryService repositoryService = processEngine.getRepositoryService();
+        //流程部署
+        //读取资源包文件，构建成inputStream
+        InputStream inputStream = this.getClass()
+                .getClassLoader()
+                .getResourceAsStream("bpmn/evection.zip");
+        //用inputStream 构建ZipInputStream
+        ZipInputStream zipInputStream = new ZipInputStream(inputStream);
+        //使用压缩包的流进行流程的部署
+        Deployment deploy = repositoryService.createDeployment()
+                .addZipInputStream(zipInputStream)
+                .deploy();
+        System.out.println("流程部署id= "+deploy.getId());
+        System.out.println("流程部署的名称= "+deploy.getName());
     }
 
 
