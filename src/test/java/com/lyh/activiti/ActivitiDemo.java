@@ -63,7 +63,7 @@ public class ActivitiDemo {
         //3. 根据流程key 和任务的负责人 查询任务
         List<Task> taskList = taskService.createTaskQuery()
                 .processDefinitionKey("myEvection") //流程key
-                .taskAssignee("jerry")          //要查询的负责人
+                .taskAssignee("zhangsan")          //要查询的负责人
                 .list();
         System.out.println();
         //4. 输出
@@ -87,5 +87,40 @@ public class ActivitiDemo {
         //3. 根据任务id完成任务
         taskService.complete("2505");
     }
+
+    @Test
+    public void completTask2(){
+        //1. 获取流程引擎
+        ProcessEngine processEngine = ProcessEngines.getDefaultProcessEngine();
+        //2. 获取TaskService
+        TaskService taskService = processEngine.getTaskService();
+        //3. 完成任务，参数： 任务id,完成zhangsan的任务
+        /*//   获取jerry - myEvection 对应的任务
+        Task task = taskService.createTaskQuery()
+                .processDefinitionKey("myEvection")
+                .taskAssignee("jerry")
+                .singleResult();*/
+
+        /*//   获取jeck - myEvection 对应的任务
+        Task task = taskService.createTaskQuery()
+                .processDefinitionKey("myEvection")
+                .taskAssignee("jeck")
+                .singleResult();*/
+
+        //   获取rose - myEvection 对应的任务
+        Task task = taskService.createTaskQuery()
+                .processDefinitionKey("myEvection")
+                .taskAssignee("rose")
+                .singleResult();
+
+        System.out.println("流程实例id= "+task.getProcessInstanceId());
+        System.out.println("任务id= "+task.getId());
+        System.out.println("任务负责人= "+task.getAssignee());
+        System.out.println("任务名称= "+task.getName());
+        //   完成jerry的任务   完成jack的任务   完成rose的任务
+        taskService.complete(task.getId());
+    }
+
+
 
 }
