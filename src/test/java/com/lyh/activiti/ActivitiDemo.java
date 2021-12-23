@@ -175,11 +175,28 @@ public class ActivitiDemo {
             System.out.println("流程定义名称: "+processDefinition.getName());
             System.out.println("流程定义Key: "+processDefinition.getKey());
             System.out.println("流程定义版本: "+processDefinition.getVersion());
+            System.out.println("流程部署ID: "+processDefinition.getDeploymentId());
         }
-
-
     }
 
+    /**
+     * 删除流程部署信息
+     *
+     * 如果当前的流程并没有完成，想要删除需要特殊方式。原理就是级联删除
+     */
+    @Test
+    public void deleteDeployMent(){
+        //获取流程引擎
+        ProcessEngine processEngine = ProcessEngines.getDefaultProcessEngine();
+        //通过引擎来获取RepositoryService
+        RepositoryService repositoryService = processEngine.getRepositoryService();
+        //通过部署id来删除流程部署信息
+        String deploymentId = "2501";
 
+        //普通删除方式（当前没有流程正在走）
+        //repositoryService.deleteDeployment(deploymentId);
 
+        //级联删除（当前有流程在走）
+        repositoryService.deleteDeployment(deploymentId,true);
+    }
 }
