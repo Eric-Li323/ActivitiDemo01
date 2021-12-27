@@ -1,14 +1,17 @@
 package com.lyh.activiti;
 
 import org.activiti.engine.*;
+import org.activiti.engine.history.HistoricActivityInstance;
+import org.activiti.engine.history.HistoricActivityInstanceQuery;
 import org.activiti.engine.repository.Deployment;
 import org.activiti.engine.repository.ProcessDefinition;
 import org.activiti.engine.repository.ProcessDefinitionQuery;
 import org.activiti.engine.runtime.ProcessInstance;
 import org.activiti.engine.task.Task;
+import org.apache.commons.io.IOUtils;
 import org.junit.Test;
 
-import java.io.InputStream;
+import java.io.*;
 import java.util.List;
 import java.util.zip.ZipInputStream;
 
@@ -191,7 +194,7 @@ public class ActivitiDemo {
         //通过引擎来获取RepositoryService
         RepositoryService repositoryService = processEngine.getRepositoryService();
         //通过部署id来删除流程部署信息
-        String deploymentId = "2501";
+        String deploymentId = "1";
 
         //普通删除方式（当前没有流程正在走）
         //repositoryService.deleteDeployment(deploymentId);
@@ -199,4 +202,80 @@ public class ActivitiDemo {
         //级联删除（当前有流程在走）
         repositoryService.deleteDeployment(deploymentId,true);
     }
+
+    /**
+     * 下载 资源文件
+     * 方案1： 使用Acitiviti提供的api下载资源文件，保存到文件目录
+     * 方案2： 自己写代码从数据库中下载文件，使用jdbc 读取blob类型、clob类型，保存到文件目录
+     * 解决IO操作： commmons-io.jar
+     *
+     *  此处使用方案1，RepositoryService
+     */
+    @Test
+    public void getDeployment() throws IOException {
+        //1. 获取引擎
+        ProcessEngine processEngine = ProcessEngines.getDefaultProcessEngine();
+        //2. 获取api,RepositoryService
+        RepositoryService repositoryService = processEngine.getRepositoryService();
+        //3. 获取查询对象 ProcessDefinitionQuery， 查询流程定义信息
+        ProcessDefinition processDefinition = repositoryService.createProcessDefinitionQuery()
+                .processDefinitionKey("myEvection")
+                .singleResult();
+        //4. 通过流程定义信息，获取部署ID
+        String deploymentId = processDefinition.getDeploymentId();
+        //5. 通过RepositoryService : 传递部署id参数，读取资源信息（png 和 bpmn）
+             //5.1 获取png图片的流
+             //从流程定义表中，获取png图片的目录和名字
+//        String pngName = processDefinition.getDiagramResourceName();
+             //通过部署id 和 文件名字来获取图片的资源
+//        InputStream pngInput = repositoryService.getResourceAsStream(deploymentId, pngName);
+             //5.2 获取bpmn的流
+        String bpmnName = processDefinition.getResourceName();
+        System.out.println("***************************bpmnName: "+bpmnName);
+        InputStream bpmnInput = repositoryService.getResourceAsStream(deploymentId, bpmnName);
+        //6. 构造OutputStream流
+//        File pngFile = new File("d:/evectionflow01.png");
+        File bpmnFile = new File("d:/evectionflow01.bpmn");
+//        FileOutputStream pngOutputStream = new FileOutputStream(pngFile);
+        FileOutputStream bpmnOutputStream = new FileOutputStream(bpmnFile);
+        //7. 输入流，输出流的转换
+//        IOUtils.copy(pngInput,pngOutputStream);
+        IOUtils.copy(bpmnInput,bpmnOutputStream);
+        //8. 关闭流
+//        pngOutputStream.close();
+        bpmnOutputStream.close();
+//        pngInput.close();
+        bpmnInput.close();
+    }
+
+    /**
+     * 查看历史
+     */
+    @Test
+    public void findHistoryInfo(){
+        //获取引擎
+        ProcessEngine processEngine = ProcessEngines.getDefaultProcessEngine();
+        //获取HistoryService
+        HistoryService historyService = processEngine.getHistoryService();
+        //获取actinst表的查询对象
+        HistoricActivityInstanceQuery instanceQuery = historyService.createHistoricActivityInstanceQuery();
+        //查询actinst,条件：根据InstanceId
+//        instanceQuery.processInstanceId("5001");
+        //查询actinst,条件：根据DefinitionId
+        instanceQuery.processDefinitionId("myEvection:1:2504");
+        //增加排序操作,orderByHistoricActivityInstanceStartTime 根据开始时间排序 asc 升序
+        instanceQuery.orderByHistoricActivityInstanceStartTime().asc();
+        //查询所有内容
+        List<HistoricActivityInstance> historicActivityInstances = instanceQuery.list();
+        //输出
+        for (HistoricActivityInstance hi : historicActivityInstances) {
+            System.out.println(hi.getActivityId());
+            System.out.println(hi.getActivityName());
+            System.out.println(hi.getProcessDefinitionId());
+            System.out.println(hi.getProcessInstanceId());
+            System.out.println("<======================================>");
+        }
+
+    }
+
 }
