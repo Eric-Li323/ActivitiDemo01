@@ -1,11 +1,9 @@
 package com.lyh.activiti;
 
-import org.activiti.engine.ProcessEngine;
-import org.activiti.engine.ProcessEngines;
-import org.activiti.engine.RepositoryService;
-import org.activiti.engine.RuntimeService;
+import org.activiti.engine.*;
 import org.activiti.engine.repository.ProcessDefinition;
 import org.activiti.engine.runtime.ProcessInstance;
+import org.activiti.engine.task.Task;
 import org.junit.Test;
 
 /**
@@ -90,4 +88,25 @@ public class ActivitiBusinessDemo {
         }
     }
 
+    /**
+     * 完成个人任务
+     */
+    @Test
+    public void completTask(){
+        //1. 获取流程引擎
+        ProcessEngine processEngine = ProcessEngines.getDefaultProcessEngine();
+        //2. 获取TaskService
+        TaskService taskService = processEngine.getTaskService();
+        //3. 使用TaskService获取任务,参数为流程实例的id,负责人
+        Task task = taskService.createTaskQuery()
+                .processInstanceId("7501")
+                .taskAssignee("zhangsan")
+                .singleResult();
+        System.out.println("流程实例id= "+task.getProcessInstanceId());
+        System.out.println("流程任务id= "+task.getId());
+        System.out.println("负责人id= "+task.getAssignee());
+        System.out.println("流程实例id= "+task.getProcessInstanceId());
+        //4. 根据任务id完成任务
+        taskService.complete(task.getId());
+    }
 }

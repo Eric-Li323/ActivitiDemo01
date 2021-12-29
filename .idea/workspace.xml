@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a3fbbd9-9d2f-47f9-9910-e81bc3e12d4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/logactactiviti.log" beforeDir="false" afterPath="$PROJECT_DIR$/logactactiviti.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lyh/activiti/ActivitiDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lyh/activiti/ActivitiDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lyh/activiti/ActivitiDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lyh/activiti/ActivitiDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lyh/activiti/ActivitiBusinessDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lyh/activiti/ActivitiBusinessDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lyh/activiti/ActivitiBusinessDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lyh/activiti/ActivitiBusinessDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +76,8 @@
       <recent name="D:\Program Files\JetBrains\IDEA-Projects\ActivitiDemo01\src\main\resources\bpmn" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ActivitiBusinessDemo.suspendSingleProcessInstance">
-    <configuration name="ActivitiBusinessDemo.addBusinessKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestAssigneeUel.startAssigneeUel">
+    <configuration name="ActivitiBusinessDemo.completTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ActivitiDemo01" />
       <extension name="coverage">
         <pattern>
@@ -91,7 +87,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.lyh.activiti" />
       <option name="MAIN_CLASS_NAME" value="com.lyh.activiti.ActivitiBusinessDemo" />
-      <option name="METHOD_NAME" value="addBusinessKey" />
+      <option name="METHOD_NAME" value="completTask" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,7 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActivitiDemo.findHistoryInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAssigneeUel.startAssigneeUel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ActivitiDemo01" />
       <extension name="coverage">
         <pattern>
@@ -138,14 +134,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.lyh.activiti" />
-      <option name="MAIN_CLASS_NAME" value="com.lyh.activiti.ActivitiDemo" />
-      <option name="METHOD_NAME" value="findHistoryInfo" />
+      <option name="MAIN_CLASS_NAME" value="com.lyh.activiti.TestAssigneeUel" />
+      <option name="METHOD_NAME" value="startAssigneeUel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActivitiDemo.testFindPersonalTaskList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAssigneeUel.testDeployment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ActivitiDemo01" />
       <extension name="coverage">
         <pattern>
@@ -154,8 +150,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.lyh.activiti" />
-      <option name="MAIN_CLASS_NAME" value="com.lyh.activiti.ActivitiDemo" />
-      <option name="METHOD_NAME" value="testFindPersonalTaskList" />
+      <option name="MAIN_CLASS_NAME" value="com.lyh.activiti.TestAssigneeUel" />
+      <option name="METHOD_NAME" value="testDeployment" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestAssigneeUel.startAssigneeUel" />
+        <item itemvalue="JUnit.TestAssigneeUel.testDeployment" />
+        <item itemvalue="JUnit.ActivitiBusinessDemo.completTask" />
         <item itemvalue="JUnit.ActivitiBusinessDemo.suspendSingleProcessInstance" />
         <item itemvalue="JUnit.ActivitiBusinessDemo.suspendAllProcessInstance" />
-        <item itemvalue="JUnit.ActivitiBusinessDemo.addBusinessKey" />
-        <item itemvalue="JUnit.ActivitiDemo.findHistoryInfo" />
-        <item itemvalue="JUnit.ActivitiDemo.testFindPersonalTaskList" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +185,9 @@
       <workItem from="1640133694614" duration="15386000" />
       <workItem from="1640219782602" duration="15766000" />
       <workItem from="1640306779533" duration="7004000" />
-      <workItem from="1640565418501" duration="9877000" />
+      <workItem from="1640565418501" duration="14335000" />
+      <workItem from="1640652543811" duration="2150000" />
+      <workItem from="1640738206281" duration="5994000" />
     </task>
     <servers />
   </component>
@@ -221,26 +219,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640051739642" />
-    <state width="1237" height="117" key="GridCell.Tab.0.bottom" timestamp="1640587107342">
+    <state width="1237" height="182" key="GridCell.Tab.0.bottom" timestamp="1640595629832">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1226" height="194" key="GridCell.Tab.0.bottom/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1639990957770" />
-    <state width="1237" height="117" key="GridCell.Tab.0.bottom/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640587107342" />
-    <state width="1237" height="117" key="GridCell.Tab.0.center" timestamp="1640587107342">
+    <state width="1237" height="182" key="GridCell.Tab.0.bottom/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640595629832" />
+    <state width="1237" height="182" key="GridCell.Tab.0.center" timestamp="1640595629832">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1226" height="194" key="GridCell.Tab.0.center/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1639990957770" />
-    <state width="1237" height="117" key="GridCell.Tab.0.center/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640587107342" />
-    <state width="1237" height="117" key="GridCell.Tab.0.left" timestamp="1640587107341">
+    <state width="1237" height="182" key="GridCell.Tab.0.center/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640595629832" />
+    <state width="1237" height="182" key="GridCell.Tab.0.left" timestamp="1640595629831">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1226" height="194" key="GridCell.Tab.0.left/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1639990957770" />
-    <state width="1237" height="117" key="GridCell.Tab.0.left/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640587107341" />
-    <state width="1237" height="117" key="GridCell.Tab.0.right" timestamp="1640587107342">
+    <state width="1237" height="182" key="GridCell.Tab.0.left/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640595629831" />
+    <state width="1237" height="182" key="GridCell.Tab.0.right" timestamp="1640595629832">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1226" height="194" key="GridCell.Tab.0.right/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1639990957770" />
-    <state width="1237" height="117" key="GridCell.Tab.0.right/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640587107342" />
+    <state width="1237" height="182" key="GridCell.Tab.0.right/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640595629832" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1640068421686">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
