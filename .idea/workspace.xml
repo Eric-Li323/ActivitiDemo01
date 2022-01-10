@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a3fbbd9-9d2f-47f9-9910-e81bc3e12d4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lyh/activiti/ActivitiBusinessDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lyh/activiti/ActivitiBusinessDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lyh/activiti/ActivitiBusinessDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lyh/activiti/ActivitiBusinessDemo.class" afterDir="false" />
-    </list>
+    <list default="true" id="2a3fbbd9-9d2f-47f9-9910-e81bc3e12d4a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +61,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/bpmn" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -72,11 +69,15 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lyh.activiti" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Program Files\JetBrains\IDEA-Projects\ActivitiDemo01\src\test\java\com\lyh\activiti" />
       <recent name="D:\Program Files\JetBrains\IDEA-Projects\ActivitiDemo01\src\main\resources\bpmn" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestAssigneeUel.startAssigneeUel">
+  <component name="RunManager" selected="JUnit.TestAssigneeUel.testDeployment">
     <configuration name="ActivitiBusinessDemo.completTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ActivitiDemo01" />
       <extension name="coverage">
@@ -159,8 +160,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestAssigneeUel.startAssigneeUel" />
         <item itemvalue="JUnit.TestAssigneeUel.testDeployment" />
+        <item itemvalue="JUnit.TestAssigneeUel.startAssigneeUel" />
         <item itemvalue="JUnit.ActivitiBusinessDemo.completTask" />
         <item itemvalue="JUnit.ActivitiBusinessDemo.suspendSingleProcessInstance" />
         <item itemvalue="JUnit.ActivitiBusinessDemo.suspendAllProcessInstance" />
@@ -187,7 +188,16 @@
       <workItem from="1640306779533" duration="7004000" />
       <workItem from="1640565418501" duration="14335000" />
       <workItem from="1640652543811" duration="2150000" />
-      <workItem from="1640738206281" duration="5994000" />
+      <workItem from="1640738206281" duration="10279000" />
+      <workItem from="1640824609565" duration="3788000" />
+      <workItem from="1640845788625" duration="5669000" />
+      <workItem from="1640911648649" duration="13777000" />
+      <workItem from="1641171480453" duration="6347000" />
+      <workItem from="1641258148581" duration="3595000" />
+      <workItem from="1641344209852" duration="4223000" />
+      <workItem from="1641430302956" duration="1237000" />
+      <workItem from="1641516156840" duration="2239000" />
+      <workItem from="1641775393772" duration="3134000" />
     </task>
     <servers />
   </component>
@@ -215,33 +225,41 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="385" y="141" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640049524711" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1640051739642">
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1640852861362">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640051739642" />
-    <state width="1237" height="182" key="GridCell.Tab.0.bottom" timestamp="1640595629832">
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640852861362" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1640833153461">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640833153461" />
+    <state width="1237" height="114" key="GridCell.Tab.0.bottom" timestamp="1640833155610">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1226" height="194" key="GridCell.Tab.0.bottom/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1639990957770" />
-    <state width="1237" height="182" key="GridCell.Tab.0.bottom/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640595629832" />
-    <state width="1237" height="182" key="GridCell.Tab.0.center" timestamp="1640595629832">
+    <state width="1237" height="114" key="GridCell.Tab.0.bottom/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640833155610" />
+    <state width="1237" height="114" key="GridCell.Tab.0.center" timestamp="1640833155610">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1226" height="194" key="GridCell.Tab.0.center/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1639990957770" />
-    <state width="1237" height="182" key="GridCell.Tab.0.center/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640595629832" />
-    <state width="1237" height="182" key="GridCell.Tab.0.left" timestamp="1640595629831">
+    <state width="1237" height="114" key="GridCell.Tab.0.center/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640833155610" />
+    <state width="1237" height="114" key="GridCell.Tab.0.left" timestamp="1640833155610">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1226" height="194" key="GridCell.Tab.0.left/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1639990957770" />
-    <state width="1237" height="182" key="GridCell.Tab.0.left/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640595629831" />
-    <state width="1237" height="182" key="GridCell.Tab.0.right" timestamp="1640595629832">
+    <state width="1237" height="114" key="GridCell.Tab.0.left/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640833155610" />
+    <state width="1237" height="114" key="GridCell.Tab.0.right" timestamp="1640833155610">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1226" height="194" key="GridCell.Tab.0.right/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1639990957770" />
-    <state width="1237" height="182" key="GridCell.Tab.0.right/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640595629832" />
+    <state width="1237" height="114" key="GridCell.Tab.0.right/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640833155610" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1640068421686">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1640068421686" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1641782270904">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1641782270904" />
   </component>
 </project>
